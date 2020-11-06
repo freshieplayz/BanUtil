@@ -20,7 +20,7 @@ public class Info extends Command {
     @Override
     public void execute(IMessage context, String... args) {
         EmbedBuilder info = new EmbedBuilder();
-        info.withTitle(Emojis.BAN + " | BanUtil");
+        info.withTitle(Emojis.BAN + " | GKA Mod");
         info.withColor(BanUtil.BANNING_COLOUR);
         info.withDescription("I'm **GKA Mod**... A moderation bot specifically for GKA. What else do you need to know?");
         info.appendField("GKA Mod version", BanUtil.VERSION, true);
