@@ -21,7 +21,7 @@ public class CommandListener implements IListener<OnCommandEvent> {
 
 		if (message.getGuild().getLongID() != BanUtil.CONFIG.getServer()
 				.getLongID()) {
-			UtilDue.sendMessage(channel, "I only work for Due!");
+			UtilDue.sendMessage(channel, "I only work for GKA!");
 			return;
 		}
 
